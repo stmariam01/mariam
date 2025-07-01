@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alert Contoh</title>
+</head>
+<body>
+    <button id="tombolHalo">Klik Saya</button>
+
+    <script>
+        document.getElementById("tombolHalo").addEventListener("click", function() {
+            alert("Halo Dunia!");
+        });
+    </script>
+</body>
+</html>
