@@ -1,0 +1,114 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #6e49ff, #b1bbf0);
+}
+
+/* === HEADER BIRU PANJANG === */
+.blue-header {
+  background-color: #2a2c87;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+.blue-header h1 {
+  font-size: 1.8rem;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #3698d5;
+}
+
+/* === KONTAINER KOTAK BIODATA === */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+}
+
+/* === KOTAK PUTIH BERISI FOTO & ISI BIODATA === */
+.biodata-box {
+  background: rgb(86, 59, 150);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+/* === FOTO PROFIL === */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* === KARTU (ABOUT, KEAHLIAN, KONTAK) === */
+.card {
+  background: #ecf7ff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.card p,
+.card li {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* === LINK === */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === TOMBOL === */
+button#toggleButton {
+  margin-top: 12px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button#toggleButton:hover {
+  background: #0056b3;
+}
