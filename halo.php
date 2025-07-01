@@ -1,8 +1,8 @@
 <?php
-if (isset($_GET['nama'])) {
-    $nama = htmlspecialchars($_GET['nama']); // Menghindari XSS
-    echo "Halo, $nama!";
+if (isset($_POST['nama']) && !empty($_POST['nama'])) {
+    $nama = htmlspecialchars($_POST['nama']);
+    echo "Halo " . $nama;
 } else {
-    echo "Halo, Siti Mariam?";
+    echo "Nama belum diisi.";
 }
 ?>
